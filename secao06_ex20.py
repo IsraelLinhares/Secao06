@@ -4,7 +4,7 @@ num = 0
 listap = []
 lista = []
 while  num != 1000:
-    num = int(input('digite um numero de inicio: '))
+    num = int(input('digite um numero: '))
     lista.append(num)    
     
     if (num%2)==0 and num != 0:

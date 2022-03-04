@@ -8,7 +8,7 @@ while i == 1:
         if num%2==0 or num == 0:
             print('numero invalido')
             continue
-        for j in range(1,num+1):
+        for j in range(num+1,-1, -1):
             if j%2 == 1:
                 lista.append(j)
         print(lista)
