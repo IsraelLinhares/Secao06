@@ -1,8 +1,9 @@
-numero = int(input("Fatorial de: ") )
-fator=1
-div = 1
-for n in range(1,numero+1):
-    fator *= n
-    div += 1/fator
-print(div)
+n = int(input("Digite o valor de n: "))
+fat = 1
+i = 2
+while i <= n:
+    fat = fat*i
+    i = i + 1
+print(fat)
 
+for i in range(1,n+1)
