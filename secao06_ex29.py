@@ -1,11 +1,10 @@
 total = 0
-
-for i in range(1, 6):
-    fator = 2*i
-
-    for t in range(1, fator):
-        fator*=t
-
-    total += i/fator
-
-print(total)
+som = 0
+a = 0
+s=0
+for i in range(2,11,2):
+    for t in range(1,i):
+        i = i*t
+    a +=1
+    s = s + a/i
+print(s)

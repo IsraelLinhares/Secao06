@@ -1,5 +1,3 @@
-from tempfile import tempdir
-
 
 c = 1200
 j = 400

@@ -1,9 +1,12 @@
-i = 0
-list=[]
-while i == 0:
-     R1 = int(input('digite uma idade: '))
-     list.append(R1)
-     if R1 <= 0 :
-          i = 1
-          print(f'a media é: {sum(list)/len(list)} ')
- 
+from cmath import sqrt
+
+
+i = 1
+while i == 1:
+     num = int(input('digite um numero: '))
+     if num < 0:
+          i = 2
+     print(f'raiz quadrada: {sqrt(num)}')
+     print(f'o quadrado: {num**2}')
+     print(f'o cubo: {num**3}')
+     

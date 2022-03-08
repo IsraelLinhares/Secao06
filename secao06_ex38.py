@@ -1,11 +1,11 @@
 
-qtd = 700
 
-for i in range(1, qtd + 1):
+for i in range(1, 376):
     a = 0
     b = 0
     c = 0
-    for j in range(1, qtd + 1):
+    for j in range(1, 376):
+
         a = j
         b = i
         c = (a ** 2 + b ** 2) ** 0.5

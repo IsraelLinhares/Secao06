@@ -1,5 +1,3 @@
-from tempfile import tempdir
-
 
 c = 150
 z = 110

@@ -1,7 +1,7 @@
-from ast import Num
+
 import random
   
-r1 = random.randint(1, 10)
+r1 = random.randint(1, 1000)
 tentativas = []
 while r1 < 1001:
      num = int(input('digite o numero: '))
@@ -18,4 +18,4 @@ while r1 < 1001:
           tentativas.append(num)
           print(f'acertou!!\nforam usadas {len(tentativas)} tentativas')
           
-          i = 1222
+          r1 = 1222

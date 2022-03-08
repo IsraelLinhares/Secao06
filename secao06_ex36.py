@@ -1,5 +1,3 @@
-from unittest import result
-
 
 print('a soma dos primeiros 100 numeros naturais ')
 result1=0

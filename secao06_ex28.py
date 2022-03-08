@@ -1,9 +1,7 @@
-n = int(input("Digite o valor de n: "))
-fat = 1
-i = 2
-while i <= n:
-    fat = fat*i
-    i = i + 1
-print(fat)
-
-for i in range(1,n+1)
+num = int(input('digite um numero: '))
+E = 1
+for n in range(1,num+1):
+    for i in range(2,n):
+        n = n * i
+    E = E + 1/n
+    print(E)

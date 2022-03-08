@@ -22,5 +22,5 @@ while i:
                     i = False
      else:
           print('numero invalido') 
-          continue
+          
 

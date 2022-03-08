@@ -10,5 +10,6 @@ if rang >=1:
         if score <= 2:
             lista.append(num)  
     print(lista)
+    print(sum(lista))
 else:
     print('numero invalido')

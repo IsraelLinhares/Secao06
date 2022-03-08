@@ -3,13 +3,13 @@ num = int(input('digite um numero: '))
 final1 = 0
 final2 = 0
 final3 = 0
-print('\nsequência 1\n')
+print('\nsequência 1')
 
 for i in range(1,num+1):
     final1+= i
 print(final1)
 
-print('sequência 2 \n ')
+print('sequência 2 ')
 
 for i in range(1,(num*2-1)+1):
     if i%2 == 0:
@@ -18,7 +18,7 @@ for i in range(1,(num*2-1)+1):
         final2+=i
 print(final2)
 
-print('sequência 3 \n ')
+print('sequência 3  ')
 
 for i in range(1,(num*2-1)+1):
     if i%2 != 0:
