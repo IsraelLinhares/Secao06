@@ -18,4 +18,4 @@ while r1 < 1001:
           tentativas.append(num)
           print(f'acertou!!\nforam usadas {len(tentativas)} tentativas')
           
-          r1 = 1222
+          r1 = 1002

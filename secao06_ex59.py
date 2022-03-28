@@ -7,7 +7,7 @@ ind = []
 while valid == 1:
     a= input('digite quantas o número de pessoas na cidade: ')
     price = input('digite o preço do kwh: ')
-    if a.isnumeric() or price.isnumeric():
+    if a.isnumeric() and price.isnumeric():
         print('''tipos de consumidores:
 
                 1- Resindencial
@@ -22,7 +22,6 @@ while valid == 1:
             i += 1
             num = input('digite o codigo do consumidor: ')
             if num ==  '1':
-                breakpoint()
                 try:
                     gasto = int(input('digite o gasto de khw: '))
                     res.append(gasto)
